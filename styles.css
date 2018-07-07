@@ -3,6 +3,12 @@
 	padding: 0.5rem;
 }
 
+#example-stories figcaption {
+  margin: 0.5rem 0 2rem 0.5rem;
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
 #mc_embed_signup form {
 	padding: 0;
 }
