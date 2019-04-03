@@ -144,6 +144,7 @@
       				</figcaption>
       			</figure>
       		</li>
+          <!--
       		<li>
       			<figure>
       				<a href="https://stories.getmural.io/dni/blossomingincencebearingtrees/index.html" target="_blank">
@@ -159,6 +160,7 @@
       				</figcaption>
       			</figure>
       		</li>
+          -->
       		<!--
       		<li>
       			<figure>
@@ -280,12 +282,16 @@
               <a href="Mural-0.2.8-win32-x64.zip" class="win-64-download">Windows v0.2.8 64 bit</a>
             </li>
             <li>
-              <a href="Mural-Ubuntu-0.2.5.gz" class="linux-download">Ubuntu v0.2.5</a>
+              <a href="Mural-0.2.8-amd64.deb.zip" class="linux-download">Debian v0.2.8 AMD 64</a>
+              <p>Please note that we are aware of a Debian build bug where the user cannot upload media or download the project zip file.</p>
+              <p>This is due to the write permissions of the app. It is possible to enact a fix by issuing the following command <code>sudo chmod -R 777 /usr/lib/mural/resources/app/public</code></p>
+              <p>We realise that this fix is suboptimal but unfortunately it is the only fix we know of until the internal file handling is refactored.</p>
             </li>
           </ul>
 
     			<h3>Download the Mural user manual</h3>
-    			<p><a href="Mural-manual-v0.2.7.pdf" class="manual-download">Mural Manual v0.2.7</a></p>
+          <p>The new manual is in the process of being updated.</p>
+    			<p><a href="Mural-manual-v0.2.8.pdf" class="manual-download">Mural Manual v0.2.8</a></p>
     			<!-- End Downloads section -->
     		</section>
 
